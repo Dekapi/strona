@@ -33,7 +33,7 @@ body {
 }
 
 .nav {
-    margin-top: 150px; /* Increase margin to push nav items lower */
+    margin-top: 150px; /* Ensure nav starts below the toggle button */
 }
 
 .nav ul {
@@ -42,12 +42,13 @@ body {
 }
 
 .nav ul li {
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     display: flex;
     align-items: center;
     border: 1px solid #ddd; /* Add border for the frame */
     margin: 10px 5px; /* Add margin between items */
+    height: 50px; /* Set a fixed height for the items */
 }
 
 .nav ul li a {
