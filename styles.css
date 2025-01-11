@@ -13,6 +13,7 @@ body {
     height: 100vh;
     transition: width 0.3s;
     overflow: hidden;
+    position: relative;
 }
 
 .sidebar.collapsed {
@@ -25,6 +26,9 @@ body {
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .nav ul {
@@ -41,6 +45,10 @@ body {
     text-decoration: none;
     color: #333;
     display: block;
+}
+
+.nav.hidden {
+    display: none;
 }
 
 .main-content {
