@@ -33,7 +33,7 @@ body {
 }
 
 .nav {
-    margin-top: 80px; /* Increase margin to push nav items lower */
+    margin-top: 100px; /* Increase margin to push nav items lower */
 }
 
 .nav ul {
@@ -42,7 +42,7 @@ body {
 }
 
 .nav ul li {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     display: flex;
     align-items: center;
