@@ -33,7 +33,7 @@ body {
 }
 
 .nav {
-    margin-top: 60px; /* Ensure nav starts below the toggle button */
+    margin-top: 80px; /* Increase margin to push nav items lower */
 }
 
 .nav ul {
