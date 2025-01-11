@@ -29,6 +29,11 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+    z-index: 1; /* Ensure the button is always on top */
+}
+
+.nav {
+    margin-top: 50px; /* Ensure nav starts below the toggle button */
 }
 
 .nav ul {
@@ -58,7 +63,7 @@ body {
 .nav ul li a .text {
     display: inline-block;
     transition: opacity 0.3s, margin-top 0.3s;
-    margin-top: 2em;  /* Adjusted margin to lower the text */
+    margin-top: 1em;  /* Adjusted margin to lower the text */
 }
 
 .sidebar.collapsed .nav ul li a .text {
